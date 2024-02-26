@@ -1,0 +1,8 @@
+# Custom 404 Not Found Error Page
+ErrorDocument 404 http://minlwinkyaw.com/404.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

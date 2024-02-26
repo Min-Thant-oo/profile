@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    font-family: Roboto, sans-serif;
+    background: #353535;
+}
+.container{
+    padding: 50px;
+    width: 280px;
+    height: 500px;
+    margin: 0px auto;
+}
+.card-head{
+    height: 252px;
+    background: -webkit-linear-gradient(-45deg,#34e89e 8%, #0f3443 83%);
+    border-radius: 25px 25px 0 0;
+}
+.card-logo{
+    width: 55px;
+    margin-left: 25px; 
+    margin-top: 20px;
+}
+.product-img{
+    height: 250px;
+    position: relative;
+    right: -100px;
+    top: -250px;
+    transform: rotateZ(10deg)
+}
+.product-text{
+    color: white;
+}
+.product-name{
+    margin: 10px 20px 5px 20px;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.product-desc{
+    margin: 70px 0px 0px 20px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card-body{
+    height: 252px;
+    background: white;
+    border-radius: 0px 0px 25px 25px;
+}
+.name{
+    color: black;
+    font-size: 27px;
+    padding: 5px 0px 0px 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: block;
+}
+.name .seven{
+    color: #1ABC9C;
+    font-weight: 600;
+}
+.new{
+    font-size: 10px;
+    background: #11e95b;
+    padding: 1px 4px;
+    border-radius: 3px;
+    color: white;
+    line-height: 1.5em;
+}
+.product-type{
+    margin: -4px 0px 0px 20px;
+    font-size: 10px;
+    font-weight: 550;
+    color: #566573;
+    text-transform: uppercase;
+}
+.product-rate{
+    padding: 0px 0px 5px 20px;
+}
+.stars{
+    font-size: 12px;
+}
+.grey{
+    color: #D5D8DC
+}
+.memory{
+    padding: 0px 0px 10px 20px;
+}
+.memory-title{
+    margin: 0px 0px 5px 0px;
+    font-size: 13px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.storage{
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    margin: 0px 10px 0px 0px;
+}
+
+.active{
+    background: #34e89e;
+    color: white;
+    box-shadow: 0px 2px 5px #ddd;
+}
+.product-color{
+    padding: 0px 0px 20px 20px;
+}
+.color-title{
+    margin: 0px 0px 5px 0px;
+    font-size: 13px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.color-list{
+    list-style: none;
+}
+.colors{
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #ddd;
+}
+.rose-gold{
+    background: rgb(242, 201,196);
+}
+.gold{
+    background: #eed6be;
+}
+.silver{
+    background: #e4e5e7;
+}
+.black{
+    background: #2c2d32;
+}
+.product-price{
+    position: relative;
+    top: -160px;
+    right: -65%;
+    padding: 5px 15px;
+    background: #11e95b;
+    display: inline-block;
+    color: white;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: 200;
+    box-shadow: -1px 1px 5px #5D6D7E;
+}
+
+.product-price b{
+    font-weight: 600;
+}

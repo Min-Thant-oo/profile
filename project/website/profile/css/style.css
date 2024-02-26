@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.top-prof{
+    background-color: #3498DB;
+    padding: 40px 0px;
+    color: white;
+}
+.top-img-wrapper{
+    margin: 0px auto;
+    display: inline-block;
+}
+.align-cen{
+    text-align: center;
+}
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.body{
+}
+
+.one-skill .out{
+    position: relative;
+    text-align: center;
+    height: 20px;
+    background-color: #eee;
+    z-index: 0;
+    border-radius: 15px;
+}
+.one-skill{
+    padding: 0px;
+}
+.skill-title{
+    padding: 0px;
+}
+.one-skill .out .inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    z-index: 1000;
+    border-radius: 15px;
+    line-height: 20px;
+    background-color: #48C9B0;
+    color: white;
+}
+.skills-section, .language-section{
+    margin: 90px 0px;
+}
+.work-section,.exp-section{
+    padding: 50px 0px;
+}
+#html,#CSS{
+    width: 75%;
+}    
+#Js{
+    width: 50%;
+}
+#php{
+    width: 55%;
+}
+#mysql{
+    width: 45%;
+}
+#c{
+    width: 65%;
+}
+#ps{
+    width: 70%;
+}
+#burmese{
+    width: 100%;
+}
+#eng{
+    width: 65%;
+}
+#turk{
+    width: 50%;
+}
+
+.proj{
+    padding: 50px 0;
+    background-color: #EC7063;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.proj a{
+    color: white;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.proj a:hover{
+    transform: scale(1.15);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer{
+    padding: 30px 0px;
+}

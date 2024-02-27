@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Primary Meta Tags -->
-    <title></title>
+    <title><?php echo isset($title) ? $title : $SETTING['web_title'] ?></title>
     <meta name="title" content="<?php echo isset($title) ? $title : $SETTING['web_title'] ?>">
     <meta name="description" content="<?php echo $SETTING['skill_intro'] ?>">
 

@@ -4,8 +4,8 @@
 
             <div class="main-social-footer-29">
 
-                <a href="<?php echo $SETTING['facebook']; ?>" target="_blank" class="facebook"><span class="fa fa-facebook"></span></a>
-                <a href="<?php echo $SETTING['instagram']; ?>" target="_blank" class="instagram"><span class="fa fa-instagram"></span></a>
+                <!-- <a href="<?php echo $SETTING['facebook']; ?>" target="_blank" class="facebook"><span class="fa fa-facebook"></span></a> -->
+                <!-- <a href="<?php echo $SETTING['instagram']; ?>" target="_blank" class="instagram"><span class="fa fa-instagram"></span></a> -->
                 <a href="<?php echo $SETTING['linkedin']; ?>" target="_blank" class="linkedin"><span class="fa fa-linkedin"></span></a>
                 <a href="<?php echo $SETTING['github']; ?>" target="_blank" class="linkedin"><span class="fa fa-github"></span></a>
             </div>

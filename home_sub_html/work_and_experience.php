@@ -88,7 +88,7 @@ company) using PHP, Docker, bash script, Linux, Jenkins and CI/CD.</p>
                     <div class="experience-top">
                         <h5>2016 - 2021</h5>
                         <h4>Bachelor of Civil Engineering, Bursa Technical University</h4>
-                        <p class="my-3 text-white">Studied Civil Engineering.</p>
+                        <p class="my-3 text-white">Studied civil engineering with concentration in structural engineering.</p>
                     </div>
                     <!-- <div class="experience-top">
                         <h5>2021 January - Present</h5>

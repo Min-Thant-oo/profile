@@ -26,7 +26,7 @@ include_once $base_path . '/config/functions.php';
 
                     <div class="slider-info banner-view text-center">
                         <div class="banner-info container">
-                            <img src="<?php echo $SETTING['profile_image']; ?>" width="128px"="about image" class="img-fluid">
+                            <!-- <img src="<?php echo $SETTING['profile_image']; ?>" width="128px"="about image" class="img-fluid"> -->
                             <?php echo $SETTING['title'] . $SETTING['sub_title'];
                             ?>
                             <!-- <p class="my-4 mb-5">Full-Stack Developer</p><br> -->

@@ -13,14 +13,14 @@
     <meta property="og:url" content="http://minlwinkyaw.com/">
     <meta property="og:title" content="<?php echo isset($title) ? $title : $SETTING['web_title'] ?>">
     <meta property="og:description" content="<?php echo $SETTING['skill_intro'] ?>">
-    <meta property="og:image" content="<?php echo $SETTING['profile_image']; ?>">
+    <!-- <meta property="og:image" content="<?php echo $SETTING['profile_image']; ?>"> -->
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="<?php echo $SETTING['profile_image']; ?>">
+    <!-- <meta property="twitter:card" content="<?php echo $SETTING['profile_image']; ?>"> -->
     <meta property="twitter:url" content="http://minlwinkyaw.com/">
     <meta property="twitter:title" content="<?php echo isset($title) ? $title : $SETTING['web_title'] ?>">
     <meta property="twitter:description" content="<?php echo $SETTING['skill_intro'] ?>">
-    <meta property="twitter:image" content="<?php echo $SETTING['profile_image']; ?>">
+    <!-- <meta property="twitter:image" content="<?php echo $SETTING['profile_image']; ?>"> -->
 
     <title><?php echo isset($title) ? $title : $SETTING['web_title'] ?></title>
     <!-- web fonts -->

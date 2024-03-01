@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 27, 2024 at 06:14 PM
+-- Generation Time: Mar 01, 2024 at 04:58 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -145,7 +145,7 @@ CREATE TABLE `setting` (
 --
 
 INSERT INTO `setting` (`id`, `name`, `web_title`, `title`, `sub_title`, `profile_image`, `skill_intro`, `hire_content`, `github`, `facebook`, `instagram`, `linkedin`, `dribble`, `behance`, `copyright`, `address`, `phone_no`, `contact_email`, `resume`) VALUES
-(1, 'Min Thant Oo', 'Min Thant Oo ', '<h3 class=\"banner-text mt-5\">Hello, I’m Min Thant Oo</h3>', '<p class=\"my-4 mb-5\">Full-Stack Developer\n\n</p><br>', '/assets/images/c1.jpg', 'I\'m a Full Stack Web Developer originally from Myanmar, based in Turkey. Specializing in both backend development and frontend design, I create dynamic and user-friendly web applications. Committed to staying updated with the latest tech trends, I strive to deliver tailored, high-quality solutions for my clients.', 'Available for clients ranging from individuals and\r\n                    small-businesses all the way to large enterprise corporations.', 'https://github.com/Min-Thant-oo', 'https://www.facebook.com/MinLwink/', 'https://www.instagram.com/min.lwin.kyaw/', 'https://www.linkedin.com/in/min-thant-oo-701198213/', 'https://dribbble.com/minlwin', 'https://www.behance.net/minlwinkyadc1f', '<p class=\"copy-footer-29\">© 2020 My Website. All rights reserved </p>', 'Istanbul, Turkey', '+905524716379', 'minthantoo.ardil@gmail.com', 'http://minthantoo.com');
+(1, 'Min Thant Oo', 'Min Thant Oo ', '<h3 class=\"banner-text mt-5\">Hello, I’m Min Thant Oo</h3>', '<p class=\"my-4 mb-5\">Full-Stack Developer\n\n</p><br>', '', 'I\'m a Full Stack Web Developer originally from Myanmar, based in Turkey. Specializing in both backend development and frontend design, I create dynamic and user-friendly web applications. Committed to staying updated with the latest tech trends, I strive to deliver tailored, high-quality solutions for my clients.', 'Available for clients ranging from individuals and\r\n                    small-businesses all the way to large enterprise corporations.', 'https://github.com/Min-Thant-oo', 'https://www.facebook.com/MinLwink/', 'https://www.instagram.com/min.lwin.kyaw/', 'https://www.linkedin.com/in/min-thant-oo-701198213/', 'https://dribbble.com/minlwin', 'https://www.behance.net/minlwinkyadc1f', '<p class=\"copy-footer-29\">© 2020 My Website. All rights reserved </p>', 'Istanbul, Turkey', '+905524716379', 'minthantoo.ardil@gmail.com', 'http://minthantoo.com');
 
 -- --------------------------------------------------------
 

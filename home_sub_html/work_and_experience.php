@@ -81,10 +81,10 @@ company) using PHP, Docker, bash script, Linux, Jenkins and CI/CD.</p>
     <div class="form-12-content">
         <div class="container">
             <div class="row">
-                <div class="col-12 p-0 m-0 mb-5">
+                <div class="col-12 p- m-0 mb-5">
                     <h3 class="">Education</h3>
                 </div>
-                <div class="col-6 p-0 pr-3 m-0">
+                <div class="col-12 p- pr-3 m-0">
                     <div class="experience-top">
                         <h5>2016 - 2021</h5>
                         <h4>Bachelor of Civil Engineering, Bursa Technical University</h4>

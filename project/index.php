@@ -17,7 +17,7 @@ if (isset($_GET['project']) && !empty($_GET['project'])) {
     if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
         header('location: /project/?project=' . $project_slug);
     }
-    $project_sql = "SELECT * FROM `project` WHERE `slug`='${project_slug}'";
+    $project_sql = "SELECT * FROM `project` WHERE `slug`='{$project_slug}'";
 
     $project = mysqli_query($connection, $project_sql);
     if (!$project && mysqli_num_rows($project) == 0) header('location: ' . $not_found_url);
@@ -25,7 +25,7 @@ if (isset($_GET['project']) && !empty($_GET['project'])) {
     $project = mysqli_fetch_assoc($project);
     $title = $project['title'] . " - Projects";
 
-    $project_tags_sql = "SELECT * FROM `project_tag` INNER JOIN `tag` ON project_tag.tag = tag.id WHERE `project`=${project['id']};";
+    $project_tags_sql = "SELECT * FROM `project_tag` INNER JOIN `tag` ON project_tag.tag = tag.id WHERE `project`={$project['id']};";
     $project_tags = mysqli_query($connection, $project_tags_sql);
     if (!$project_tags) header('location: ' . $not_found_url);
 
